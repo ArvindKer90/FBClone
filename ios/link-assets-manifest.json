@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/klavika-bold-italic.otf",
+      "sha1": "7c1414cd8a6bf5e7ccd627882ab8fa76fb8fccd4"
+    },
+    {
+      "path": "src/assets/fonts/klavika-bold.otf",
+      "sha1": "a9214262aa3348decb1ebee5761a3403215ecc32"
+    },
+    {
+      "path": "src/assets/fonts/klavika-light-italic.otf",
+      "sha1": "394676d1bc65eef531a9b4419146285a9dd01a3a"
+    },
+    {
+      "path": "src/assets/fonts/klavika-light.otf",
+      "sha1": "27ed2cc7b0dab84f1ac07ecdb75015b312516820"
+    },
+    {
+      "path": "src/assets/fonts/klavika-medium-italic.otf",
+      "sha1": "09012a025c471dd30cc3682d20f0c5c843acb051"
+    },
+    {
+      "path": "src/assets/fonts/klavika-medium.otf",
+      "sha1": "90d623de0d2408df885f7cdd37eb447a0834a076"
+    },
+    {
+      "path": "src/assets/fonts/klavika-regular-italic.otf",
+      "sha1": "52223243cab8858b09be1dc73d7595c3893686ff"
+    }
+  ]
+}
