@@ -82,7 +82,7 @@ const Feed: React.FC<FeedProps> = props => {
         <Text style={styles.captionTxt}>{props.item.caption}</Text>
       ) : null}
       <ImageGrid images={props.item.postImg} />
-      <PostLikeComments />
+      <PostLikeComments like={props.item.reactionCount} comment={props.item.commentsCount} share={props.item.shareCount}/>
     </View>
   );
 };

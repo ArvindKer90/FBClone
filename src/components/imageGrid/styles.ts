@@ -9,6 +9,7 @@ const imageSize = (width - 24) / 3; // Assuming 3 columns in the second row
 export default StyleSheet.create({
   container: {
     padding: moderateScale(8),
+    backgroundColor: Color?.platinum,
   },
   row: {
     flexDirection: 'row',

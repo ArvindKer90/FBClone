@@ -58,21 +58,27 @@ const Home = ({navigation}: HomeProps) => {
       .collection('postFeeds')
       .onSnapshot(docs => {
         const postFeed: any = [];
-        docs.forEach(doc => postFeed.push(doc.data()));
+        if(docs){
+          docs.forEach(doc => postFeed.push(doc.data()));
+        }
         setPostFeeds(postFeed);
       });
     firestore()
       .collection('storyFeeds')
       .onSnapshot(docs => {
         const storyFeed: any = [];
-        docs.forEach(doc => storyFeed.push(doc.data()));
+        if(docs){
+          docs.forEach(doc => storyFeed.push(doc.data()));
+        }
         setStoryFeeds(storyFeed);
       });
     firestore()
       .collection('users')
       .onSnapshot(docs => {
         const userProfileData: any = [];
-        docs.forEach(doc => userProfileData.push(doc.data()));
+        if(docs){
+          docs.forEach(doc => userProfileData.push(doc.data()));
+        }
         console.log(userProfileData[0]);
         setUserProfile(userProfileData[0]);
       });

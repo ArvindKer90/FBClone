@@ -8,6 +8,7 @@ export interface PostFeeds {
   profileImg: string;
   reactionCount: number;
   commentsCount: number;
+  shareCount: number;
   privacy: string;
 }
 
